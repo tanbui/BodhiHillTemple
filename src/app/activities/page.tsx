@@ -172,4 +172,6 @@ export default function ActivitiesPage() {
           </Card>
         </TabsContent>
       </Tabs>
-    </
+    </PageWrapper>
+  );
+}

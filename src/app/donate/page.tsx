@@ -153,3 +153,8 @@ export default function DonationsPage() {
             </Button>
              <Image src="https://placehold.co/600x300.png" alt="Placeholder for transparency report" width={600} height={300} className="mt-4 rounded-md" data-ai-hint="financial report graph" />
           </CardContent>
+        </Card>
+      </section>
+    </PageWrapper>
+  );
+}
