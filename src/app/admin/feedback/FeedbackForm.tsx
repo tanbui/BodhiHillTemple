@@ -55,7 +55,6 @@ export default function FeedbackForm() {
     return null;
   };
 
-
   return (
     <div className="space-y-8">
       <Card className="shadow-lg">
@@ -165,3 +164,7 @@ export default function FeedbackForm() {
             </div>
           </CardContent>
         </Card>
+      )}
+    </div>
+  );
+}

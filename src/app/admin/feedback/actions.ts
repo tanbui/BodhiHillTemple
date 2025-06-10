@@ -12,4 +12,5 @@ export async function handleFeedbackAnalysis(input: AnalyzeFeedbackInput): Promi
     // It's good practice to not expose raw error messages to the client
     // For a production app, log this error and return a generic message
     return { error: 'An error occurred while analyzing feedback. Please try again later.' };
-  
+  }
+}
