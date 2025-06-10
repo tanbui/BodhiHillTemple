@@ -1,3 +1,5 @@
+'use client';
+
 // src/app/activities/page.tsx
 import Image from 'next/image';
 import PageWrapper from '@/components/shared/PageWrapper';
@@ -104,7 +106,7 @@ export default function ActivitiesPage() {
                       <p className="text-muted-foreground text-sm">{event.description}</p>
                     </CardContent>
                     <div className="p-6 pt-0">
-                       <Button variant="link" className="text-primary p-0">Learn More →</Button>
+                       <Button variant="link" className="text-primary p-0" onClick={() => alert('Learn more action not implemented.')}>Learn More →</Button>
                     </div>
                   </Card>
                 ))}
@@ -166,7 +168,7 @@ export default function ActivitiesPage() {
                 ))}
               </div>
               <div className="mt-6 text-center">
-                <Button variant="outline">View More on Flickr/YouTube (Coming Soon)</Button>
+                <Button variant="outline" onClick={() => alert('View more action not implemented.')}>View More on Flickr/YouTube (Coming Soon)</Button>
               </div>
             </CardContent>
           </Card>
