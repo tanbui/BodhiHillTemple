@@ -1,3 +1,5 @@
+'use client';
+
 // src/app/teachings/page.tsx
 import Image from 'next/image';
 import PageWrapper from '@/components/shared/PageWrapper';
