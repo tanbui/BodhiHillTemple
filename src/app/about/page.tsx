@@ -30,7 +30,7 @@ const testimonials = [
 ];
 
 const galleryImages = [
-  { id: 1, src: 'https://placehold.co/600x400.png', alt: 'Temple exterior', imageHint: 'temple building' },
+  { id: 1, src: 'https://storage.googleapis.com/bodhihilltemple/pexels-pserrol-1482822.jpg', alt: 'Temple exterior', imageHint: 'temple building' },
   { id: 2, src: 'https://placehold.co/600x400.png', alt: 'Meditation hall', imageHint: 'meditation hall' },
   { id: 3, src: 'https://placehold.co/600x400.png', alt: 'Temple garden', imageHint: 'temple garden' },
   { id: 4, src: 'https://placehold.co/600x400.png', alt: 'Statue of Buddha', imageHint: 'buddha statue' },
