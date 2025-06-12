@@ -8,15 +8,15 @@ import { CalendarDays, HeartHandshake, BookOpen, TrendingUp, Users, HelpCircle }
 import { LotusIcon, BuddhaIcon } from '@/components/icons';
 
 const featuredEvents = [
-  { id: 1, title: 'Full Moon Meditation', date: 'October 28, 2024', description: 'Join us for a guided meditation session under the serene light of the full moon.', icon: <CalendarDays className="h-6 w-6 text-primary" />, imageHint: 'moon meditation' },
-  { id: 2, title: 'Dharma Talk by Venerable Thich Tam Thien', date: 'November 5, 2024', description: 'An insightful talk on applying Buddhist principles in daily life.', icon: <BookOpen className="h-6 w-6 text-primary" />, imageHint: 'dharma talk' },
-  { id: 3, title: 'Community Volunteer Day', date: 'November 12, 2024', description: 'Lend a hand and connect with fellow community members at the temple.', icon: <Users className="h-6 w-6 text-primary" />, imageHint: 'community volunteer' },
+  { id: 1, title: 'Full Moon Meditation', date: 'October 28, 2024', description: 'Join us for a guided meditation session under the serene light of the full moon.', icon: <CalendarDays className="h-6 w-6 text-primary" />, imageHint: 'moon meditation', imageUrl: 'https://firebasestorage.googleapis.com/v0/b/bodhiconnect.firebasestorage.app/o/gallery%2Fevent1.jpg?alt=media&token=0292f1eb-5256-4fdd-b2d4-8bbc9dc12ca1' },
+  { id: 2, title: 'Dharma Talk by Venerable Thich Tam Thien', date: 'November 5, 2024', description: 'An insightful talk on applying Buddhist principles in daily life.', icon: <BookOpen className="h-6 w-6 text-primary" />, imageHint: 'dharma talk', imageUrl: 'https://firebasestorage.googleapis.com/v0/b/bodhiconnect.firebasestorage.app/o/gallery%2Fevent2.jpg?alt=media&token=0292f1eb-5256-4fdd-b2d4-8bbc9dc12ca1'},
+  { id: 3, title: 'Community Volunteer Day', date: 'November 12, 2024', description: 'Lend a hand and connect with fellow community members at the temple.', icon: <Users className="h-6 w-6 text-primary" />, imageHint: 'community volunteer', imageUrl: 'https://firebasestorage.googleapis.com/v0/b/bodhiconnect.firebasestorage.app/o/gallery%2Fevent3.jpg?alt=media&token=0292f1eb-5256-4fdd-b2d4-8bbc9dc12ca1'}
 ];
 
 const latestTeachings = [
-  { id: 1, title: 'The Art of Mindful Living', excerpt: 'Explore techniques to bring mindfulness into every moment of your day...', category: 'Mindfulness', imageHint: 'mindful living' },
-  { id: 2, title: 'Understanding Karma', excerpt: 'A deep dive into the concept of karma and its implications for our lives...', category: 'Philosophy', imageHint: 'karma concept' },
-  { id: 3, title: 'Cultivating Compassion', excerpt: 'Practical steps to develop a compassionate heart towards oneself and others...', category: 'Practice', imageHint: 'compassion heart' },
+  { id: 1, title: 'The Art of Mindful Living', excerpt: 'Explore techniques to bring mindfulness into every moment of your day...', category: 'Mindfulness', imageHint: 'mindful living', imageUrl: 'https://firebasestorage.googleapis.com/v0/b/bodhiconnect.firebasestorage.app/o/gallery%2Fteaching1.jpg?alt=media&token=0292f1eb-5256-4fdd-b2d4-8bbc9dc12ca1' },
+  { id: 2, title: 'Understanding Karma', excerpt: 'A deep dive into the concept of karma and its implications for our lives...', category: 'Philosophy', imageHint: 'karma concept', imageUrl: 'https://firebasestorage.googleapis.com/v0/b/bodhiconnect.firebasestorage.app/o/gallery%2Fteaching2.jpg?alt=media&token=0292f1eb-5256-4fdd-b2d4-8bbc9dc12ca1' },
+  { id: 3, title: 'Cultivating Compassion', excerpt: 'Practical steps to develop a compassionate heart towards oneself and others...', category: 'Practice', imageHint: 'compassion heart', imageUrl: 'https://firebasestorage.googleapis.com/v0/b/bodhiconnect.firebasestorage.app/o/gallery%2Fteaching3.jpg?alt=media&token=0292f1eb-5256-4fdd-b2d4-8bbc9dc12ca1' },
 ];
 
 export default function HomePage() {
@@ -67,7 +67,7 @@ export default function HomePage() {
           </Card>
           <Card className="hover:shadow-xl transition-shadow duration-300">
             <CardHeader className="flex flex-row items-center gap-4">
-               <div className="p-3 bg-secondary/20 rounded-full">
+              <div className="p-3 bg-secondary/20 rounded-full">
                 <HelpCircle className="h-8 w-8 text-secondary-foreground" />
               </div>
               <div>
@@ -83,11 +83,11 @@ export default function HomePage() {
           </Card>
         </div>
       </section>
-      
+
       {/* Featured Events Section */}
       <section className="mb-16 animate-subtle-slide-up animation-delay-400">
         <div className="flex items-center mb-8">
-           <TrendingUp className="h-10 w-10 text-primary mr-3" />
+          <TrendingUp className="h-10 w-10 text-primary mr-3" />
           <h2 className="text-3xl font-bold text-foreground">Upcoming Events</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -102,13 +102,13 @@ export default function HomePage() {
               </CardHeader>
               <CardContent className="flex-grow">
                 <p className="text-muted-foreground text-sm mb-4">{event.description}</p>
-                <Image 
-                  src={`https://placehold.co/600x400.png`} 
-                  alt={event.title} 
-                  width={600} 
-                  height={400} 
+                <Image
+                  src={event.imageUrl}
+                  alt={event.title}
+                  width={600}
+                  height={400}
                   className="rounded-md object-cover aspect-video"
-                  data-ai-hint={event.imageHint} 
+                  data-ai-hint={event.imageHint}
                 />
               </CardContent>
               <div className="p-6 pt-0">
@@ -123,19 +123,19 @@ export default function HomePage() {
 
       {/* Latest Teachings Section */}
       <section className="animate-subtle-slide-up animation-delay-600">
-         <div className="flex items-center mb-8">
-           <BuddhaIcon className="h-10 w-10 text-primary mr-3" />
+        <div className="flex items-center mb-8">
+          <BuddhaIcon className="h-10 w-10 text-primary mr-3" />
           <h2 className="text-3xl font-bold text-foreground">Latest Teachings</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {latestTeachings.map((teaching) => (
             <Card key={teaching.id} className="hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <CardHeader>
-                <Image 
-                  src={`https://placehold.co/600x350.png`} 
-                  alt={teaching.title} 
-                  width={600} 
-                  height={350} 
+                <Image
+                  src={teaching.imageUrl}
+                  alt={teaching.title}
+                  width={600}
+                  height={350}
                   className="rounded-t-md object-cover aspect-[16/9]"
                   data-ai-hint={teaching.imageHint}
                 />
