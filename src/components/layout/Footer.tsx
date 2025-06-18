@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4 group">
               <DharmaWheelIcon className="h-8 w-8 text-primary group-hover:animate-spin-slow transition-transform" />
               <span className="font-headline text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
-                Bodhi Hill Temple
+                Vien Quang Temple
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">

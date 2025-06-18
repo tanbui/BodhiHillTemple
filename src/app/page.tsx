@@ -30,7 +30,7 @@ export default function HomePage() {
         <div className="relative container mx-auto text-center px-4">
           <LotusIcon className="h-20 w-20 text-primary mx-auto mb-6 animate-pulse" />
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-            Welcome to Bodhi Hill Temple
+            Welcome to Vien Quang
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             A sanctuary for peace, wisdom, and community. Discover the path to enlightenment through ancient teachings and compassionate practice.

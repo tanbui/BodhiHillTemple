@@ -34,7 +34,7 @@ export default function DonationsPage() {
     <PageWrapper>
       <header className="text-center mb-12 md:mb-16">
         <HeartHandshake className="h-16 w-16 text-primary mx-auto mb-4" />
-        <h1 className="text-4xl md:text-5xl font-bold text-foreground">Support Bodhi Hill Temple</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground">Support Vien Quang Temple</h1>
         <p className="text-lg text-muted-foreground mt-2">Your generosity helps us share wisdom, compassion, and peace.</p>
       </header>
 

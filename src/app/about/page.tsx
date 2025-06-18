@@ -21,7 +21,7 @@ const testimonials = [
   {
     id: 1,
     name: 'Linh Chen',
-    quote: 'Finding Bodhi Hill Temple has been a true blessing. The teachings are profound and the community is so welcoming.',
+    quote: 'Finding Vien Quang Temple has been a true blessing. The teachings are profound and the community is so welcoming.',
     avatar: 'https://placehold.co/100x100.png',
     imageHint: 'woman portrait',
   },
@@ -86,7 +86,7 @@ export default function AboutPage() {
     <PageWrapper>
       <header className="text-center mb-12 md:mb-16">
         <LotusIcon className="h-16 w-16 text-primary mx-auto mb-4" />
-        <h1 className="text-4xl md:text-5xl font-bold text-foreground">About Bodhi Hill Temple</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground">About Vien Quang Temple</h1>
         <p className="text-lg text-muted-foreground mt-2">Discover our roots, our guide, and our guiding principles.</p>
       </header>
 
@@ -110,7 +110,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-headline font-semibold text-foreground">Our History &amp; Founding</h2>
               </div>
               <p className="text-muted-foreground mb-4 text-base leading-relaxed">
-                Bodhi Hill Temple was founded in [Year] by a group of dedicated practitioners with the vision of creating a spiritual haven for the study and practice of Buddhism. Rooted in the [Buddhist Tradition, e.g., Mahayana] tradition, our temple has grown from humble beginnings into a vibrant center for Dharma in the region.
+                Vien Quang Temple was founded in [Year] by a group of dedicated practitioners with the vision of creating a spiritual haven for the study and practice of Buddhism. Rooted in the [Buddhist Tradition, e.g., Mahayana] tradition, our temple has grown from humble beginnings into a vibrant center for Dharma in the region.
               </p>
               <p className="text-muted-foreground text-base leading-relaxed">
                 We honor our founders and lineage masters by upholding the authentic teachings and fostering a supportive environment for all who seek the path of wisdom and compassion. <em className="text-sm">(Content available in English &amp; Vietnamese)</em>
@@ -140,7 +140,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-headline font-semibold text-foreground">Our Guiding Light: Venerable [Monk's Name]</h2>
               </div>
               <p className="text-muted-foreground mb-4 text-base leading-relaxed">
-                Venerable [Monk's Name] is the spiritual director of Bodhi Hill Temple. With over [Number] years of monastic training and Dharma practice, Venerable [Monk's Name] offers profound teachings and compassionate guidance to the community. Their dedication to spreading the Dharma has inspired countless individuals on their spiritual journeys.
+                Venerable [Monk's Name] is the spiritual director of Vien Quang Temple. With over [Number] years of monastic training and Dharma practice, Venerable [Monk's Name] offers profound teachings and compassionate guidance to the community. Their dedication to spreading the Dharma has inspired countless individuals on their spiritual journeys.
               </p>
               <p className="text-muted-foreground text-base leading-relaxed">
                 Learn more about Venerable [Monk's Name]'s life, teachings, and contributions to Buddhism. <em className="text-sm">(Content available in English &amp; Vietnamese)</em>
@@ -157,7 +157,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-headline font-semibold text-foreground">Our Philosophy &amp; Mission</h2>
         </div>
         <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
-          At Bodhi Hill Temple, our mission is to provide a supportive and authentic environment for the study, practice, and realization of Buddhist teachings. We strive to cultivate wisdom, compassion, and inner peace within individuals and the broader community. We are guided by the core tenets of [mention specific principles, e.g., the Four Noble Truths, the Eightfold Path] and aim to make these timeless teachings accessible to all.
+          At Vien Quang Temple, our mission is to provide a supportive and authentic environment for the study, practice, and realization of Buddhist teachings. We strive to cultivate wisdom, compassion, and inner peace within individuals and the broader community. We are guided by the core tenets of [mention specific principles, e.g., the Four Noble Truths, the Eightfold Path] and aim to make these timeless teachings accessible to all.
         </p>
       </section>
 

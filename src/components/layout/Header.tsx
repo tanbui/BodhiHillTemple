@@ -65,7 +65,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2 group">
           <DharmaWheelIcon className="h-10 w-10 text-primary group-hover:animate-spin-slow transition-transform duration-500" />
           <span className="font-headline text-2xl font-semibold text-foreground group-hover:text-primary transition-colors">
-            Bodhi Hill Temple
+            Vien Quang Temple
           </span>
         </Link>
 
