@@ -18,7 +18,7 @@ const navItems = [
   { href: '/teachings', label: 'Teachings' },
   { href: '/prayers', label: 'Prayers' },
   { href: '/donate', label: 'Donate' },
-  { href: '/contact', label: 'Contact' },
+  //{ href: '/contact', label: 'Contact' },
   { href: '/admin/feedback', label: 'Feedback Tool' }, // Added for GenAI feature
 ];
 

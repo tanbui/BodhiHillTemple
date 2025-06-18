@@ -229,9 +229,9 @@ export default function AboutPage() {
                 <CardTitle className="font-headline text-2xl flex items-center gap-2"><MapPin className="text-primary"/>Our Location</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">123 Bodhi Path, Serenity City, CA 90210</p>
+                <p className="text-muted-foreground">3394 Linda Vista Dr, San Marcos, CA 92078</p>
                 <Button variant="link" asChild className="p-0 mt-2 text-primary">
-                  <a href="https://maps.google.com/?q=123+Bodhi+Path,Serenity+City,CA+90210" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.google.com/maps/place/3394+Linda+Vista+Dr,+San+Marcos,+CA+92078" target="_blank" rel="noopener noreferrer">
                     Get Directions
                   </a>
                 </Button>
@@ -243,8 +243,8 @@ export default function AboutPage() {
                 <CardTitle className="font-headline text-2xl flex items-center gap-2"><Phone className="text-primary"/>Contact Us</CardTitle>
               </CardHeader>
               <CardContent className="space-y-2">
-                <p className="text-muted-foreground"><strong>Email:</strong> info@bodhihilltemple.org</p>
-                <p className="text-muted-foreground"><strong>Phone:</strong> (555) 123-4567</p>
+                <p className="text-muted-foreground"><strong>Email:</strong> chuavienquangsm@gmail.com</p>
+                <p className="text-muted-foreground"><strong>Phone:</strong> (760) 727-5569</p>
               </CardContent>
             </Card>
 

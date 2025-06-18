@@ -25,12 +25,12 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/20 via-background to-accent/10 py-20 md:py-32 rounded-xl shadow-lg overflow-hidden mb-16 animate-subtle-slide-up">
         <div className="absolute inset-0 opacity-20">
-          <Image src="https://placehold.co/1200x600.png" alt="Abstract temple background" layout="fill" objectFit="cover" data-ai-hint="serene abstract" />
+          <Image src="https://firebasestorage.googleapis.com/v0/b/bodhiconnect.firebasestorage.app/o/gallery%2Fvienquang_home.jpg?alt=media&token=e89f9a66-aed8-4d6a-88bb-f6045490bf19" alt="Abstract temple background" layout="fill" objectFit="cover" data-ai-hint="serene abstract" />
         </div>
         <div className="relative container mx-auto text-center px-4">
           <LotusIcon className="h-20 w-20 text-primary mx-auto mb-6 animate-pulse" />
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-            Welcome to Vien Quang
+            Welcome to Vien Quang Temple
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             A sanctuary for peace, wisdom, and community. Discover the path to enlightenment through ancient teachings and compassionate practice.
